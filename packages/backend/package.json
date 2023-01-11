@@ -11,7 +11,7 @@
         "serve": "node -r dotenv/config -r ts-node/register src/app.ts",
         "serve:check": "sh check.sh && pnpm serve",
         "serve:prod": "node -r ts-node/register src/app.ts",
-        "start": "nodemon"
+        "start": "sh check.sh && nodemon"
     },
     "keywords": [],
     "author": "",
